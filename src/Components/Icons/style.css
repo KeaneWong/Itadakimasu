@@ -1,0 +1,10 @@
+svg 
+{
+    width: 24 px;
+    height: 24px;
+}
+
+
+svg:hover path{
+    fill:#bbbbbb;
+}
