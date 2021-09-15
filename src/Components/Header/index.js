@@ -24,7 +24,7 @@ const Header = (props) => {
 
         window.addEventListener('scroll',changeHeaderColor)
   return(
-    <header className = {headerColor ? "header colorChange" : "header" }>
+    <header className = {headerColor ? "header colorChange" : "header" } style = {{width: props.width ? props.width : "100%"}}>
         <div className = 'specialFlexItem'>
             <nav className = "headerMenu">
                 <a href = "#">Home</a>

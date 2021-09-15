@@ -3,11 +3,12 @@
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    
+    background-color:transparent;
     top: 0px;
     padding: 30px 0;
     transition: transform 6s ease;
     animation: headerTransitionBack 1.2s;
+
     
 }
 
@@ -23,6 +24,7 @@
     background-color:#61bbef;
     transition: transform 6s ease;
     animation: headerTransition 2.4s;
+ 
 }
 
 @keyframes headerTransition

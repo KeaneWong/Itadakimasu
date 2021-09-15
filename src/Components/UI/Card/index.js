@@ -7,11 +7,11 @@ import './style.css';
 
 const Card = (props) => {
   return(
-    <div className = 'card' style = {{width: props.width ? props.width : "100%"}} {...props}>
+    <div className = 'card' style = {{width: props.width ? props.width : "100%", backgroundColor : props.backgroundColor ? props.backgroundColor: "#f0f0f0" }} {...props}>
         {props.children}
 
     </div>
-    
+
    )
 
  }
