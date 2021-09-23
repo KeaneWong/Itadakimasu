@@ -1,0 +1,98 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color:transparent;
+    top: 0px;
+    padding: 30px 0;
+    transition: transform 6s ease;
+    animation: headerTransitionBack 1.2s;
+
+    
+}
+
+.header.colorChange
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+
+    top: 0px;
+    padding: 30px 0;
+    background-color:#61bbef;
+    transition: transform 6s ease;
+    animation: headerTransition 2.4s;
+ 
+}
+
+@keyframes headerTransition
+{
+    0%
+    {
+        background-color: transparent;
+    }
+    35%
+    {
+        background-color: #61bbef;
+    }
+    100%
+    {
+        background-color:#61bbef;
+    }
+}
+@keyframes headerTransitionBack
+{
+    0%
+    {
+        background-color: #61bbef;
+    }
+    35%
+    {
+        background-color: transparent;
+    }
+    100%
+    {
+        background-color: transparent;
+    }
+}
+
+
+.headerMenu a
+{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+}
+.headerMenu a:hover{
+    color: grey;
+}
+
+
+.specialFlexItem
+{
+    flex: 1 1 auto;
+
+
+}
+
+
+.specialFlexItem1
+{
+    flex: 1 1 auto;
+    text-align: right;
+
+}
+
+
+.IconImage
+{
+    
+    pointer-events: none;
+
+}
+
