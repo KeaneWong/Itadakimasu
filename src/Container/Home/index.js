@@ -75,6 +75,7 @@ const Home = props => {
             </Card>
 
                 <Layout >
+                    
                     <RecentPosts style = {{width: '70%'}}/>
                 </Layout>
                 

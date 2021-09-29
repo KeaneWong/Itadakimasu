@@ -15,9 +15,9 @@ const NavBar = (props) => {
     <div className = "navbar" >
         <ul className = "navbarmenu">
             <li><NavLink to = '/'>Home        </NavLink></li>
-            <li><NavLink to = 'About-us'>About Us    </NavLink></li>
-            <li><NavLink to = 'Contact-us'>Contact Us  </NavLink></li>
-            <li><NavLink to = 'Post'>Posts       </NavLink></li>
+            <li><NavLink to = '/About-us'>About Us    </NavLink></li>
+            <li><NavLink to = '/Contact-us'>Contact Us  </NavLink></li>
+            <li><NavLink to = '/Posts'>Posts       </NavLink></li>
 
         </ul>
 

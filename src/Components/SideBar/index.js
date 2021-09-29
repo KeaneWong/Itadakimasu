@@ -52,7 +52,7 @@ const SideBar = (props) => {
                 {
                     posts.map(post => {
                             return (
-                                <NavLink key = {post.id} to = {`/Post/${post.id}`}>
+                                <NavLink key = {post.id} to = {`/Posts/${post.id}`}>
                                     <div className = "recentPost">
                                     <h3 >{post.blogTitle}</h3>
                                     <span>{post.postedOn}</span>
