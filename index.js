@@ -139,7 +139,7 @@ app.get("*", (req, res) => {
 })
 
 
-app.listen(process.env.PORt || PORT, () =>{
+app.listen(PORT, () =>{
     console.log(`Server started on port ${PORT}`)
 })
 
