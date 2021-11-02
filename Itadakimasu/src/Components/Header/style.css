@@ -1,0 +1,124 @@
+.header {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color:transparent;
+    top: 0px;
+    padding: 30px 0;
+    transition: transform 6s ease;
+    animation: headerTransitionBack 1.2s;
+    z-index: 3;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header.colorChange
+{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+
+    top: 0px;
+    padding: 30px 0;
+    background-color:#61bbef;
+    transition: transform 6s ease;
+    animation: headerTransition 2.4s;
+    z-index: 3;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@keyframes headerTransition
+{
+    0%
+    {
+        background-color: transparent;
+    }
+    35%
+    {
+        background-color: #61bbef;
+    }
+    100%
+    {
+        background-color:#61bbef;
+    }
+}
+@keyframes headerTransitionBack
+{
+    0%
+    {
+        background-color: #61bbef;
+    }
+    35%
+    {
+        background-color: transparent;
+    }
+    100%
+    {
+        background-color: transparent;
+    }
+}
+
+
+.headerMenu a
+{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+}
+.headerMenu a:hover{
+    color: grey;
+}
+
+
+.specialFlexItem
+{
+    flex: 1 1 0;
+    text-align:left;
+    
+
+}
+.specialFlexItem2
+{
+    flex: 1 1 0;
+    text-align: center;
+
+}
+
+
+
+.specialFlexItem1
+{
+    flex: 1 1 0;
+    text-align: right;
+
+    vertical-align: middle;
+}
+
+
+.IconImage
+{
+    
+    pointer-events: none;
+
+}
+
+#SideMenu
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    transform: translate3d(-100vw, 0, 0);
+    transition: transform .3s cubic-bezier(0, .52, 0, 1);
+    width: 100vw;
+    height: 100vh;
+}

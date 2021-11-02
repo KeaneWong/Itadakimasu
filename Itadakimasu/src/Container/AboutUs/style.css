@@ -1,0 +1,51 @@
+.mainimg
+{
+    width: 100%;
+    padding: 17px;
+    margin-top: 4%px;
+    margin-bottom: 4%px;
+    box-sizing: border-box;
+}
+
+.headdd
+{
+    font-size: 25px;
+   
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-weight: 700;
+    font-family:europa;
+
+}
+
+.spacer
+{
+    padding: 17px 0px;
+    height: 34px;
+    
+}
+.container
+{
+    
+    width: 100%;
+}
+
+.summary
+{
+    padding:17px;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: minon-pro;
+    width: 50%;
+    align-items: center;
+}
+
+.summaryWrapper
+{
+   
+    width: 100%;
+    
+    
+}

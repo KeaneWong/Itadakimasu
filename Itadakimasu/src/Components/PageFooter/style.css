@@ -1,0 +1,66 @@
+.Center
+{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 0em;
+    font-weight:580;
+    
+}
+.PageFoot
+{
+    width: 100%;
+    text-align: center;
+    z-index: -2;
+}
+
+.galleryimg
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.GalleryContainer
+{
+    width: 100%;
+    margin-bottom: 7%;
+}
+.contain
+{
+    
+    width: 100%;
+    padding: 0;
+    width: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.rowgallery
+{
+    padding: 0;
+    
+    width: 80%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.columnelement
+{
+    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 12px;
+    
+    display: block;
+}
+
+.bottomSpacer
+{
+    margin-bottom: 7%;
+
+}

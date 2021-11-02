@@ -1,0 +1,55 @@
+{
+    "data":
+    [
+        {
+            "id":"33",
+            "blogCategory":"Featured",
+            "blogTitle": "Thai Basil Pannacotta",
+            "postedOn": "June 19, 2021",
+            "author": "Keane Wong",
+            "blogImage": "ThaiPannacotta.png",
+            "blogText": "Hello everyone! It’s been a long break we took for school, but Itadakimasu is back in business and we’re kicking off with a classic dessert, with a minor twist! Summer’s here once again, and amidst the horrible heat stroke and fire warnings in California, it’s also the best time of year to be eating some cold desserts, and there’s no better way for me than a creamy, chilled panna cotta. For those unfamiliar, panna cotta is an Italian dessert, somewhat like a pudding set from a mold much like flan; the difference being that flan is typically set with a tempered egg mixture, like a custard, and panna cotta is set with gelatin. Both are absolutely delicious. However, I wanted to focus on panna cotta today because I feel like it’s a bit better with fresh fruit, which we have an abundance of here in SoCal. "
+        },
+        {
+            "id":"3",
+            "blogCategory":"Omakase",
+            "blogTitle": "Cherry Brined Porkchops",
+            "postedOn": "Nov 11, 2020",
+            "author": "Keane Wong",
+            "blogImage": "porkchop.jpg",
+            "blogText": "Hello there"
+        },
+        {
+            "id":"1",
+            "blogCategory":"Featured",
+            "blogTitle": "Traditional Tonkotsu Ramen",
+            "postedOn": "June 11, 2020",
+            "author": "Alex Tsai",
+            "blogImage": "ramen.jpg",
+            "blogText": "Hello there"
+        },
+        {
+            "id":"26",
+            "blogCategory":"Review",
+            "blogTitle": "Souplantation Farewell",
+            "postedOn": "October 10, 2020",
+            "author": "Colby Liew",
+            "blogImage": "IMG_1499.JPG",
+            "blogText": "Hello there"
+        }
+
+
+
+
+
+
+
+    ]
+
+
+
+
+
+
+
+}

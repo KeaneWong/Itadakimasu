@@ -1,0 +1,11 @@
+.mySvg 
+{
+    width: 24px;
+    height: 24px;
+}
+
+
+.mySvg:hover path{
+    fill:#bbbbbb;
+}
+
