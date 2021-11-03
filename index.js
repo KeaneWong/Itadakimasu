@@ -14,7 +14,7 @@ const multer = require('multer');
 
 
 const  uploadFile  = require('./s3') 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT 
 //process.env.NODE_ENV => production || undefined
 
 //middleware
