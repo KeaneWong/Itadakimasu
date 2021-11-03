@@ -13,13 +13,13 @@ const pool = require('./db');
 const multer = require('multer');
 
 
-const  uploadFile  = require('./s3') 
-const PORT = process.env.PORT || 5000
+const  uploadFile  = require('./s3') ;
+const PORT = process.env.PORT || 5000;
 //process.env.NODE_ENV => production || undefined
 
 //middleware
-app.use(cors())
-app.use(express.json())
+app.use(cors());
+app.use(express.json());
 
 app.use(express.static(path.join(__dirname, "Itadakimasu/build")));
 //app.use(express.static("./Itadakimasu/build"));
