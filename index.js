@@ -32,11 +32,11 @@ if (process.env.NODE_ENV === "production") {
 }
 */
 
-
+//if this doesnt work, possibly try changing 'Itadakimasu' to 'Client'
 if (process.env.NODE_ENV) {
-    app.use(express.static(path.resolve(process.cwd(), 'Itadakimasu/build')))
+    app.use(express.static(path.join(__dirname, "Itadakimasu/build")));
     app.get('*', (req, res) => {
-      res.sendFile(path.resolve(process.cwd(), 'Itadakimasu/build/index.html'))
+      res.sendFile(path.join(__dirname, 'Itadakimasu/build/index.html'))
     })
   }
 
