@@ -10,7 +10,7 @@ import PostList from './Container/PostList/PostList';
 import AboutUs from './Container/AboutUs';
 function App() {
   return (
-    <Router basename="/">
+    <Router >
     <Header className = 'headBanner'/>
     <div className="App">
 
