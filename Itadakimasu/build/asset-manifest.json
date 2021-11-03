@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.03888739.chunk.css",
+    "main.js": "./static/js/main.8af5896c.chunk.js",
+    "main.js.map": "./static/js/main.8af5896c.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.d70558dd.js",
+    "runtime-main.js.map": "./static/js/runtime-main.d70558dd.js.map",
+    "static/js/2.b9cddc41.chunk.js": "./static/js/2.b9cddc41.chunk.js",
+    "static/js/2.b9cddc41.chunk.js.map": "./static/js/2.b9cddc41.chunk.js.map",
+    "static/js/3.481a98be.chunk.js": "./static/js/3.481a98be.chunk.js",
+    "static/js/3.481a98be.chunk.js.map": "./static/js/3.481a98be.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.03888739.chunk.css.map": "./static/css/main.03888739.chunk.css.map",
+    "static/js/2.b9cddc41.chunk.js.LICENSE.txt": "./static/js/2.b9cddc41.chunk.js.LICENSE.txt",
+    "static/media/BanhMi.e6cc411c.JPG": "./static/media/BanhMi.e6cc411c.JPG",
+    "static/media/IMG_2547.434f6903.JPG": "./static/media/IMG_2547.434f6903.JPG",
+    "static/media/Main_Logo.d64f5c85.png": "./static/media/Main_Logo.d64f5c85.png",
+    "static/media/Search_Icon.592db58c.png": "./static/media/Search_Icon.592db58c.png",
+    "static/media/TacosBarbacoa.bfa8b8c3.jpg": "./static/media/TacosBarbacoa.bfa8b8c3.jpg",
+    "static/media/ThaiPannacotta.png": "./static/media/ThaiPannacotta.c485e802.png",
+    "static/media/porkchop.16ec4aac.JPG": "./static/media/porkchop.16ec4aac.JPG",
+    "static/media/ramen.9c564ed9.jpg": "./static/media/ramen.9c564ed9.jpg",
+    "static/media/us.6cfc9425.jpeg": "./static/media/us.6cfc9425.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d70558dd.js",
+    "static/js/2.b9cddc41.chunk.js",
+    "static/css/main.03888739.chunk.css",
+    "static/js/main.8af5896c.chunk.js"
+  ]
+}

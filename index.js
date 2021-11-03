@@ -14,7 +14,7 @@ const multer = require('multer');
 
 
 const  uploadFile  = require('./s3') 
-const PORT = process.env.PORT 
+const PORT = process.env.PORT || 5000
 //process.env.NODE_ENV => production || undefined
 
 //middleware
@@ -31,9 +31,7 @@ if(process.env.NODE_ENV  === 'production')
 
 }
 
-app.get('*', function(req, res) {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
+
 
 
 console.log(path.join(__dirname,"Itadakimasu/build"));
