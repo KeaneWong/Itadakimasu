@@ -24,22 +24,23 @@ app.use(express.json());
 //app.use(express.static(path.join(__dirname, "Itadakimasu/build")));
 //app.use(express.static("./Itadakimasu/build"));
 
-/*
+
 if (process.env.NODE_ENV === "production") {
   //server static content
   //npm run build
   app.use(express.static(path.join(__dirname, "Itadakimasu/build")));
 }
-*/
+
 
 //if this doesnt work, possibly try changing 'Itadakimasu' to 'Client'
+/*
 if (process.env.NODE_ENV) {
     app.use(express.static(path.join(__dirname, "Itadakimasu/build")));
     app.get('*', (req, res) => {
       res.sendFile(path.join(__dirname, 'Itadakimasu/build/index.html'))
     })
   }
-
+*/
 
 
 console.log(path.join(__dirname,"Itadakimasu/build"));

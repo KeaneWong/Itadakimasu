@@ -15,7 +15,7 @@
     "heroku-postbuild": "cd Itadakimasu && npm install && npm run build"
 
   },
-  "author": "",
+  "author": "Keane Wong",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1011.0",
