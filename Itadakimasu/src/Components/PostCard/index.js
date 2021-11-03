@@ -69,8 +69,8 @@ const PostCard = (props) => {
                 </div>
             </div>
             
-            <div className = 'title' ><NavLink className = "Navl" to = '33'>{props.title}</NavLink></div>
-            <div><NavLink className = "Navl" to = '33'>{props.tags}</NavLink></div>
+            <div className = 'title' >{props.title}</div>
+            <div>{props.tags}</div>
             <span>by {props.author} </span>
             <p style = {{fontStyle: "italic"}} >{props.description}</p>
             

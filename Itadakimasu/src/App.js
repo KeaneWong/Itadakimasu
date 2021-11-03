@@ -16,7 +16,7 @@ function App() {
 
   
     
-      <Route path = '/' component = {PostList}/> 
+      <Route exact path = '/' component = {PostList}/> 
       <Route path = '/contact-us' component = {ContactUs} />
       <Route path = '/about-us' component = {AboutUs} />
       <Route path = '/posts/:postId' component = {Post} />

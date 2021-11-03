@@ -24,11 +24,10 @@ app.use(express.json())
 //app.use(express.static(path.join(__dirname, "Itadakimasu/build")));
 //app.use(express.static("./Itadakimasu/build"));
 
-if(process.env.NODE_ENV  === 'production')
-{
-  app.use(express.static(path.join(__dirname, "Itadakimasu/build") ) );
-
-
+if (process.env.NODE_ENV === "production") {
+  //server static content
+  //npm run build
+  app.use(express.static(path.join(__dirname, "Itadakimasu/build")));
 }
 
 
