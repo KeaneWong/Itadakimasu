@@ -4,7 +4,7 @@ import Home from './Container/Home';
 import Header from './Components/Header';
 import Hero from './Components/Hero';
 import ContactUs from './Container/Contact Us'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {HashRouter as Router, Switch, Route} from 'react-router-dom'
 import Post from './Container/Post';
 import PostList from './Container/PostList/PostList';
 import AboutUs from './Container/AboutUs';

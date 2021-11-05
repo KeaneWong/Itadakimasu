@@ -22,7 +22,7 @@ app.use(cors());
 app.use(express.json());
 
 //app.use(express.static(path.join(__dirname, "Itadakimasu/build")));
-//app.use(express.static("./Itadakimasu/build"));
+//app.use(express.static(path.join(__dirname, "Itadakimasu/build")));
 
 
 if (process.env.NODE_ENV === "production") {
